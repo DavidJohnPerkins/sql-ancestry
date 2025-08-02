@@ -1,0 +1,5 @@
+USE Ancestry
+GO
+
+CREATE SCHEMA ANCESTRY
+GO

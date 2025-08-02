@@ -1,0 +1,12 @@
+USE master
+GO
+
+IF EXISTS (SELECT d.[name]  FROM sys.databases d WHERE d.[name] = N'Ancestry')
+BEGIN
+	ALTER DATABASE Ancestry SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+	DROP DATABASE Ancestry
+END
+GO
+
+CREATE DATABASE Ancestry
+GO
