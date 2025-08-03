@@ -18,7 +18,7 @@ CREATE TABLE ANCESTRY.person (
 	bio_father		int,
 	bio_mother		int,
 	adopt_father	int,
-	adopt_moter		int
+	adopt_mother	int
 ) ON [PRIMARY]
 GO
 

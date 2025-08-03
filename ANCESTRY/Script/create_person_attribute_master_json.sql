@@ -3,7 +3,7 @@ GO
 
 DECLARE @json	COMMON.json = '
 	{
-		"update_type":	"CREATE",
+		"update_type":	"REPLACE",
 		"attr_list": [
 			{ "attr_type": 1, "attr_desc": "first_name" },
 			{ "attr_type": 1, "attr_desc": "middle_name" },
@@ -11,10 +11,11 @@ DECLARE @json	COMMON.json = '
 			{ "attr_type": 3, "attr_desc": "date_of_birth" },
 			{ "attr_type": 3, "attr_desc": "date_of_death" },
 			{ "attr_type": 1, "attr_desc": "place_of_birth" },
-			{ "attr_type": 1, "attr_desc": "place_of_death" }
+			{ "attr_type": 1, "attr_desc": "place_of_death" },
+			{ "attr_type": 1, "attr_desc": "person_code" }
 		]
 	}
 '
-select @json
+--select @json
 
 EXEC ANCESTRY.c_person_attribute_list @json, true, true
