@@ -6,14 +6,14 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-IF EXISTS (SELECT 1 FROM sys.objects WHERE object_id = OBJECT_ID(N'ANCESTRY.c_person_attribute') AND [type] IN ('P', 'PC'))
+IF EXISTS (SELECT 1 FROM sys.objects WHERE object_id = OBJECT_ID(N'ANCESTRY.c_person_attribute_list') AND [type] IN ('P', 'PC'))
 BEGIN 
-	DROP PROCEDURE ANCESTRY.c_person_attribute
-	PRINT '########## ANCESTRY.c_person_attribute dropped successfully ##########'
+	DROP PROCEDURE ANCESTRY.c_person_attribute_list
+	PRINT '########## ANCESTRY.c_person_attribute_list dropped successfully ##########'
 END
 GO
 
-CREATE PROCEDURE ANCESTRY.c_person_attribute
+CREATE PROCEDURE ANCESTRY.c_person_attribute_list
 	@p_input_json		COMMON.json,
 	@p_debug			bit = 0,
 	@p_execute			bit = 1
@@ -66,4 +66,4 @@ BEGIN
 
 END
 GO
-PRINT '########## ANCESTRY.c_person_attribute created successfully ##########'
+PRINT '########## ANCESTRY.c_person_attribute_list created successfully ##########'
