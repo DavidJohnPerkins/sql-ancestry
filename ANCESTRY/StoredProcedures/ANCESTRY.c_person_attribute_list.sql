@@ -23,25 +23,25 @@ BEGIN
 
 	SET NOCOUNT ON
 
-	DECLARE @v_model_sobriquet	ANCESTRY.sobriquet,
-			@v_update_type		char(1),
-			@v_flags			COMMON.flag_add_list
+	DECLARE @v_update_type		varchar(10),
+			@v_attr_list		ANCESTRY.master_attribute_add_list
 
 	BEGIN TRY
 
-		SET @v_model_sobriquet = (SELECT JSON_VALUE(@p_input_json, '$."sobriquet"'))
 		SET @v_update_type = (SELECT JSON_VALUE(@p_input_json, '$."update_type"'))
-		INSERT INTO @v_flags(flag_abbrev)
+		INSERT INTO @v_attr_list(attr_type, attr_desc)
 		SELECT
-			f.flag_abbrev
+			a.attr_type,
+			a.attr_desc
 		FROM 
-			OPENJSON (@p_input_json, '$.model_flags')
+			OPENJSON (@p_input_json, '$.attr_list')
 			WITH
 			(
-				flag_abbrev	char(8)
-			) f
+				attr_type	int,
+				attr_desc	varchar(255)
+			) a
 
-	EXEC COMMON.c_model_flag @v_flags, @v_model_sobriquet, @v_update_type
+	EXEC COMMON.c_person_attribute_list @v_attr_list, @v_update_type
 
 	END TRY
 
