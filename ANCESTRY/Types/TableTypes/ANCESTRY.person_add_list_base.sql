@@ -6,7 +6,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-DROP TYPE IF EXISTS ANCESTRY.person_add_list
+DROP TYPE IF EXISTS ANCESTRY.person_add_list_base
 GO
 
 CREATE TYPE ANCESTRY.person_add_list_base AS TABLE   
