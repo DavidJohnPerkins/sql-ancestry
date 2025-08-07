@@ -18,7 +18,7 @@ CREATE TABLE ANCESTRY.person_attribute_date
 	id 			int IDENTITY(1, 1) 	NOT NULL,
 	attr_id		int					NOT NULL,
 	person_id	int					NOT NULL,
-	attr_value	int					NOT NULL,
+	attr_value	date					NOT NULL,
 	valid_from	datetime			NOT NULL,
 	valid_to	datetime 			NOT NULL 
 ) ON [PRIMARY]
