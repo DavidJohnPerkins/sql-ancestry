@@ -25,11 +25,15 @@ DROP TABLE IF EXISTS ANCESTRY.person
 DROP TYPE IF EXISTS ANCESTRY.master_attribute_add_list
 DROP TYPE IF EXISTS ANCESTRY.person_add_list_base
 DROP TYPE IF EXISTS COMMON.json
+DROP TYPE IF EXISTS COMMON.person_list
+DROP TYPE IF EXISTS COMMON.person_code
 
 GO
 
 -- TYPES
 :r "COMMON/Types/DataTypes/COMMON.json.sql"
+:r "COMMON/Types/DataTypes/COMMON.person_code.sql"
+:r "COMMON/Types/DataTypes/COMMON.person_list.sql"
 :r "ANCESTRY/Types/TableTypes/ANCESTRY.master_attribute_add_list.sql"
 :r "ANCESTRY/Types/TableTypes/ANCESTRY.person_add_list_base.sql"
 

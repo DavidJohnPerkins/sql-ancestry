@@ -1,0 +1,8 @@
+USE Ancestry
+GO
+
+DROP TYPE IF EXISTS COMMON.person_code
+GO
+
+CREATE TYPE COMMON.person_code
+FROM varchar(50) NOT NULL
