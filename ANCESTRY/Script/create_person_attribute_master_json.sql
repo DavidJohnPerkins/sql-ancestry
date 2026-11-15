@@ -12,6 +12,8 @@ DECLARE @json	COMMON.json = '
 			{ "attr_type": 3, "attr_desc": "date_of_death" },
 			{ "attr_type": 1, "attr_desc": "place_of_birth" },
 			{ "attr_type": 1, "attr_desc": "place_of_death" },
+			{ "attr_type": 1, "attr_desc": "father_code" },
+			{ "attr_type": 1, "attr_desc": "mother_code" },
 			{ "attr_type": 1, "attr_desc": "person_code" }
 		]
 	}

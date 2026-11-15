@@ -19,8 +19,8 @@ CREATE TABLE ANCESTRY.person_attribute_string
 	attr_id		int					NOT NULL,
 	person_id	int					NOT NULL,
 	attr_value	varchar(255)		NOT NULL,
-	valid_from	datetime			NOT NULL,
-	valid_to	datetime 			NOT NULL 
+	valid_from	datetime			NOT NULL DEFAULT GETDATE(),
+	valid_to	datetime 			NOT NULL DEFAULT '9999-12-31 23:59:59'
 ) ON [PRIMARY]
 GO
 
