@@ -4,6 +4,126 @@ SET @p_input_json = N'
 {  
 	"person":[
 		{
+			"person_code":			"ADAMS000000XX",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name": 			"Adams",
+			"middle_name":			"Family",
+			"surname":				"Ancestor",
+			"gender":				"M",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
+		},
+		{
+			"person_code":			"ADAMS000000YY",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name": 			"Adams",
+			"middle_name":			"Family",
+			"surname":				"Ancestor (mother)",
+			"gender":				"F",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
+		},
+		{
+			"person_code":			"DAVIS000000XX",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name":			"Davis",
+			"middle_name":			"Family",
+			"surname":				"Ancestor",
+			"gender":				"M",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
+		},
+		{
+			"person_code":			"DAVIS000000YY",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name": 			"Davis",
+			"middle_name":			"Family",
+			"surname":				"Ancestor (mother)",
+			"gender":				"F",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
+		},
+		{
+			"person_code":			"GUNDR000000XX",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name":			"Gundry",
+			"middle_name":			"Family",
+			"surname":				"Ancestor",
+			"gender":				"M",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
+		},
+		{
+			"person_code":			"GUNDR000000YY",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name": 			"Gundry",
+			"middle_name":			"Family",
+			"surname":				"Ancestor (mother)",
+			"gender":				"F",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
+		},
+		{
+			"person_code":			"HARRI000000XX",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name":			"Harrison",
+			"middle_name":			"Family",
+			"surname":				"Ancestor",
+			"gender":				"M",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
+		},
+		{
+			"person_code":			"HARRI000000YY",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name": 			"Harrison",
+			"middle_name":			"Family",
+			"surname":				"Ancestor (mother)",
+			"gender":				"F",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
+		},
+		{
 			"person_code":			"PERKI000000XX",
 			"father_code":			"ADAM",
 			"mother_code":			"EVE",
@@ -13,6 +133,111 @@ SET @p_input_json = N'
 			"middle_name":			"Family",
 			"surname":				"Ancestor",
 			"gender":				"M",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
+		},
+		{
+			"person_code":			"PERKI000000YY",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name":			"Perkins",
+			"middle_name":			"Family",
+			"surname":				"Ancestor (mother)",
+			"gender":				"F",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
+		},
+		{
+			"person_code":			"RICHA000000XX",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name": 			"Richardson",
+			"middle_name":			"Family",
+			"surname":				"Ancestor",
+			"gender":				"M",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
+		},
+		{
+			"person_code":			"RICHA000000YY",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name": 			"Richardson",
+			"middle_name":			"Family",
+			"surname":				"Ancestor (mother)",
+			"gender":				"F",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
+		},
+		{
+			"person_code":			"SORRE000000XX",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name":			"Sorrell",
+			"middle_name":			"Family",
+			"surname":				"Ancestor",
+			"gender":				"M",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
+		},
+		{
+			"person_code":			"SORRE000000YY",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name": 			"Sorrell",
+			"middle_name":			"Family",
+			"surname":				"Ancestor (mother)",
+			"gender":				"F",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
+		},
+		{
+			"person_code":			"THOMS000000XX",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name":			"Thomson",
+			"middle_name":			"Family",
+			"surname":				"Ancestor",
+			"gender":				"M",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
+		},
+		{
+			"person_code":			"THOMS000000YY",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name": 			"Thomson",
+			"middle_name":			"Family",
+			"surname":				"Ancestor (mother)",
+			"gender":				"F",
 			"date_of_birth":		"1000-01-01",
 			"date_of_death":		"1100-01-01",
 			"place_of_birth":		"Earth",
@@ -32,16 +257,144 @@ SET @p_input_json = N'
 			"date_of_death":		"1100-01-01",
 			"place_of_birth":		"Earth",
 			"place_of_death":		"Heaven"
+		},
+		{
+			"person_code":			"TOYNB000000YY",
+			"father_code":			"ADAM",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name":			"Toynbee",
+			"middle_name":			"Family",
+			"surname":				"Ancestor (mother)",
+			"gender":				"F",
+			"date_of_birth":		"1000-01-01",
+			"date_of_death":		"1100-01-01",
+			"place_of_birth":		"Earth",
+			"place_of_death":		"Heaven"
 		}
 	]
 }';
+--EXEC ANCESTRY.c_person @p_input_json, 0, 1
+
+SET @p_input_json = N'
+{  
+	"person":[
+		{
+			"person_code":			"PERKI001015JB",
+			"father_code":			"PERKI000000XX",
+			"mother_code":			"PERKI000000YY",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name": 			"Joseph",
+			"middle_name":			"Benjamin",
+			"surname":				"Perkins",
+			"gender":				"M",
+			"date_of_birth":		"1902-01-01",
+			"date_of_death":		"1950-01-01",
+			"place_of_birth":		"West Bromwich",
+			"place_of_death":		"West Bromwich"
+		},
+		{
+			"person_code":			"ADAMS001012GG",
+			"father_code":			"ADAMS000000XX",
+			"mother_code":			"ADAMS000000YY",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name": 			"Gertrude",
+			"middle_name":			null,
+			"surname":				"Adams",
+			"gender":				"F",
+			"date_of_birth":		"1902-01-01",
+			"date_of_death":		"1958-01-01",
+			"place_of_birth":		"West Bromwich",
+			"place_of_death":		"Smethwick"
+		}
+	]
+}'
+--EXEC ANCESTRY.c_person @p_input_json, 0, 1
+
+SET @p_input_json = N'
+{  
+	"person":[
+		{
+			"person_code":			"TOYNB041012JW",
+			"father_code":			"TOYNB000000XX",
+			"mother_code":			"TOYNB000000YY",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name":			"John",
+			"middle_name":			"William",
+			"surname":				"Toynbee",
+			"gender":				"M",
+			"date_of_birth":		"1904-10-12",
+			"date_of_death":		"1990-01-01",
+			"place_of_birth":		"Heignton",
+			"place_of_death":		"Nottingham"
+		},
+		{
+			"person_code":			"HARRI000000MM",
+			"father_code":			"HARRI000000XX",
+			"mother_code":			"HARRI000000YY",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name":			"Margaret",
+			"middle_name":			null,
+			"surname":				"Harrison",
+			"gender":				"F",
+			"date_of_birth":		"1900-01-01",
+			"date_of_death":		"1970-01-01",
+			"place_of_birth":		"Lincoln",
+			"place_of_death":		"Smethwick"
+		}
+	]
+}'
+--EXEC ANCESTRY.c_person @p_input_json, 0, 1
+
+SET @p_input_json = N'
+{  
+	"person":[
+		{
+			"person_code":			"SORRE000000CC",
+			"father_code":			"SORRE000000XX",
+			"mother_code":			"SORRE000000YY",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name":			"Clifford",
+			"middle_name":			"",
+			"surname":				"Sorrell",
+			"gender":				"M",
+			"date_of_birth":		"1905-01-01",
+			"date_of_death":		"1999-02-26",
+			"place_of_birth":		"Writtle",
+			"place_of_death":		"Bristol"
+		},
+		{
+			"person_code":			"SORRE001015DD",
+			"father_code":			"SORRE000000XX",
+			"mother_code":			"EVE",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name":			"Dorothy",
+			"middle_name":			"",
+			"surname":				"Sorrell",
+			"gender":				"F",
+			"date_of_birth":		"1905-01-01",
+			"date_of_death":		"1999-02-26",
+			"place_of_birth":		"Writtle",
+			"place_of_death":		"Bristol"
+		}
+	]
+}'
+--EXEC ANCESTRY.c_person @p_input_json, 0, 1
+
 SET @p_input_json = N'
 {
 	"person":[
 		{
 			"person_code": 			"PERKI212265JM",
-			"father_code":			"PERKI000000XX",
-			"mother_code":			"TOYNB000000XX",
+			"father_code":			"PERKI001015JB",
+			"mother_code":			"ADAMS001012GG",
 			"adopt_father_code":	null,
 			"adopt_mother_code":	null,
 			"first_name": 			"John",
@@ -55,8 +408,8 @@ SET @p_input_json = N'
 		},
 		{
 			"person_code":			"TOYNB303225AM",
-			"father_code":			"ADAM",
-			"mother_code":			"EVE",
+			"father_code":			"TOYNB041012JW",
+			"mother_code":			"HARRI000000MM",
 			"adopt_father_code":	null,
 			"adopt_mother_code":	null,
 			"first_name": 			"Anne",
@@ -70,6 +423,82 @@ SET @p_input_json = N'
 		}
 	]
 }'
+--EXEC ANCESTRY.c_person @p_input_json, 0, 1
+
+SET @p_input_json = N'
+{  
+	"person":[
+		{
+			"person_code":			"GUNDR211016CS",
+			"father_code":			"GUNDR000000XX",
+			"mother_code":			"GUNDR000000YY",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name":			"Cecil",
+			"middle_name":			"Stafford",
+			"surname":				"Gundry",
+			"gender":				"M",
+			"date_of_birth":		"1926-11-04",
+			"date_of_death":		"2019-09-11",
+			"place_of_birth":		"Streatham",
+			"place_of_death":		"Long Ashton"
+		},
+		{
+			"person_code":			"SORRE201269MM",
+			"father_code":			"SORRE000000CC",
+			"mother_code":			"SORRE001015DD",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name":			"Margaret",
+			"middle_name":			"",
+			"surname":				"Sorrell",
+			"gender":				"F",
+			"date_of_birth":		"1929-01-26",
+			"date_of_death":		"1998-07-30",
+			"place_of_birth":		"Writtle",
+			"place_of_death":		"Bristol"
+		}
+	]
+}'
+--EXEC ANCESTRY.c_person @p_input_json, 0, 1
+
+SET @p_input_json = N'
+{  
+	"person":[
+		{
+			"person_code":			"DAVIS000000AA",
+			"father_code":			"DAVIS000000XX",
+			"mother_code":			"DAVIS000000YY",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name":			"Ann",
+			"middle_name":			"",
+			"surname":				"Davis",
+			"gender":				"F",
+			"date_of_birth":		"1900-01-01",
+			"date_of_death":		"1900-01-01",
+			"place_of_birth":		"Wales",
+			"place_of_death":		"Essex"
+		},
+		{
+			"person_code":			"THOMS000000JJ",
+			"father_code":			"THOMS000000XX",
+			"mother_code":			"THOMS000000YY",
+			"adopt_father_code":	null,
+			"adopt_mother_code":	null,
+			"first_name":			"John",
+			"middle_name":			"",
+			"surname":				"Thomson",
+			"gender":				"M",
+			"date_of_birth":		"1944-01-01",
+			"date_of_death":		"1966-04-08",
+			"place_of_birth":		"Catrine",
+			"place_of_death":		"Catrine"
+		}
+	]
+}'
+--EXEC ANCESTRY.c_person @p_input_json, 0, 1
+
 SET @p_input_json = N'
 {
 	"person":[
@@ -105,187 +534,8 @@ SET @p_input_json = N'
 		}
 	]
 }'
-SET @p_input_json = N'
-{  
-	"person":[
-		{
-			"person_code":			"THOMS000000XX",
-			"father_code":			"ADAM",
-			"mother_code":			"EVE",
-			"adopt_father_code":	null,
-			"adopt_mother_code":	null,
-			"first_name":			"Thomson",
-			"middle_name":			"Family",
-			"surname":				"Ancestor",
-			"gender":				"M",
-			"date_of_birth":		"1000-01-01",
-			"date_of_death":		"1100-01-01",
-			"place_of_birth":		"Earth",
-			"place_of_death":		"Heaven"
-		},
-		{
-			"person_code":			"DAVIS000000XX",
-			"father_code":			"ADAM",
-			"mother_code":			"EVE",
-			"adopt_father_code":	null,
-			"adopt_mother_code":	null,
-			"first_name":			"Davis",
-			"middle_name":			"Family",
-			"surname":				"Ancestor",
-			"gender":				"M",
-			"date_of_birth":		"1000-01-01",
-			"date_of_death":		"1100-01-01",
-			"place_of_birth":		"Earth",
-			"place_of_death":		"Heaven"
-		},
-		{
-			"person_code":			"GUNDR000000XX",
-			"father_code":			"ADAM",
-			"mother_code":			"EVE",
-			"adopt_father_code":	null,
-			"adopt_mother_code":	null,
-			"first_name":			"Gundry",
-			"middle_name":			"Family",
-			"surname":				"Ancestor",
-			"gender":				"M",
-			"date_of_birth":		"1000-01-01",
-			"date_of_death":		"1100-01-01",
-			"place_of_birth":		"Earth",
-			"place_of_death":		"Heaven"
-		},
-		{
-			"person_code":			"SORRE000000XX",
-			"father_code":			"ADAM",
-			"mother_code":			"EVE",
-			"adopt_father_code":	null,
-			"adopt_mother_code":	null,
-			"first_name":			"Sorrell",
-			"middle_name":			"Family",
-			"surname":				"Ancestor",
-			"gender":				"M",
-			"date_of_birth":		"1000-01-01",
-			"date_of_death":		"1100-01-01",
-			"place_of_birth":		"Earth",
-			"place_of_death":		"Heaven"
-		}
-	]
-}';
-SET @p_input_json = N'
-{  
-	"person":[
-		{
-			"person_code":			"SORRE001015DD",
-			"father_code":			"SORRE000000XX",
-			"mother_code":			"EVE",
-			"adopt_father_code":	null,
-			"adopt_mother_code":	null,
-			"first_name":			"Dorothy",
-			"middle_name":			"",
-			"surname":				"Sorrell",
-			"gender":				"F",
-			"date_of_birth":		"1905-01-01",
-			"date_of_death":		"1999-02-26",
-			"place_of_birth":		"Writtle",
-			"place_of_death":		"Bristol"
-		}
-	]
-}'
-SET @p_input_json = N'
-{  
-	"person":[
-		{
-			"person_code":			"SORRE000000CC",
-			"father_code":			"SORRE000000XX",
-			"mother_code":			"EVE",
-			"adopt_father_code":	null,
-			"adopt_mother_code":	null,
-			"first_name":			"Clifford",
-			"middle_name":			"",
-			"surname":				"Sorrell",
-			"gender":				"M",
-			"date_of_birth":		"1905-01-01",
-			"date_of_death":		"1999-02-26",
-			"place_of_birth":		"Writtle",
-			"place_of_death":		"Bristol"
-		}
-	]
-}'
+--EXEC ANCESTRY.c_person @p_input_json, 0, 1
 
-SET @p_input_json = N'
-{  
-	"person":[
-		{
-			"person_code":			"SORRE201269MM",
-			"father_code":			"SORRE000000CC",
-			"mother_code":			"SORRE001015DD",
-			"adopt_father_code":	null,
-			"adopt_mother_code":	null,
-			"first_name":			"Margaret",
-			"middle_name":			"",
-			"surname":				"Sorrell",
-			"gender":				"F",
-			"date_of_birth":		"1929-01-26",
-			"date_of_death":		"1998-07-30",
-			"place_of_birth":		"Writtle",
-			"place_of_death":		"Bristol"
-		}
-	]
-}'
-SET @p_input_json = N'
-{  
-	"person":[
-		{
-			"person_code":			"DAVIS000000AA",
-			"father_code":			"DAVIS000000XX",
-			"mother_code":			"EVE",
-			"adopt_father_code":	null,
-			"adopt_mother_code":	null,
-			"first_name":			"Ann",
-			"middle_name":			"",
-			"surname":				"Davis",
-			"gender":				"F",
-			"date_of_birth":		"1900-01-01",
-			"date_of_death":		"1900-01-01",
-			"place_of_birth":		"Wales",
-			"place_of_death":		"Essex"
-		},
-		{
-			"person_code":			"THOMS000000JJ",
-			"father_code":			"THOMS000000XX",
-			"mother_code":			"EVE",
-			"adopt_father_code":	null,
-			"adopt_mother_code":	null,
-			"first_name":			"John",
-			"middle_name":			"",
-			"surname":				"Thomson",
-			"gender":				"M",
-			"date_of_birth":		"1944-01-01",
-			"date_of_death":		"1966-04-08",
-			"place_of_birth":		"Catrine",
-			"place_of_death":		"Catrine"
-		}
-	]
-}'
-SET @p_input_json = N'
-{  
-	"person":[
-		{
-			"person_code":			"GUNDR211016CS",
-			"father_code":			"GUNDR000000XX",
-			"mother_code":			"EVE",
-			"adopt_father_code":	null,
-			"adopt_mother_code":	null,
-			"first_name":			"Cecil",
-			"middle_name":			"Stafford",
-			"surname":				"Gundry",
-			"gender":				"M",
-			"date_of_birth":		"1926-11-04",
-			"date_of_death":		"2019-09-11",
-			"place_of_birth":		"Streatham",
-			"place_of_death":		"Long Ashton"
-		}
-	]
-}'
 SET @p_input_json = N'
 {  
 	"person":[
@@ -306,6 +556,8 @@ SET @p_input_json = N'
 		}
 	]
 }'
+--EXEC ANCESTRY.c_person @p_input_json, 0, 1
+
 SET @p_input_json = N'
 {  
 	"person":[
@@ -325,7 +577,7 @@ SET @p_input_json = N'
 			"place_of_death":		null
 		},
 		{
-			"person_code":			"PERKI904098Z",
+			"person_code":			"PERKI904098ZH",
 			"father_code":			"PERKI607013DJ",
 			"mother_code":			"GUNDR603274SE",
 			"adopt_father_code":	null,
@@ -341,7 +593,6 @@ SET @p_input_json = N'
 		}
 	]
 }'
-
 EXEC ANCESTRY.c_person @p_input_json, 0, 1
 
-select * from ANCESTRY.person
+
