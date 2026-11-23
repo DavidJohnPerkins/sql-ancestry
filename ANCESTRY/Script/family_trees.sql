@@ -5,7 +5,7 @@
 
 --select * from ANCESTRY.vw_person_attribute_pivot where person_code NOT LIKE '%XX' order by 2
 /*
-DECLARE @PersonId INT = 133;
+DECLARE @PersonId INT = 136;
 
 ;WITH FamilyTree AS
 (
@@ -52,7 +52,7 @@ ORDER BY tree_path
 OPTION (MAXRECURSION 100);
 */
 /*
-DECLARE @PersonId INT = 46;
+DECLARE @PersonId INT = 136;
 
 ;WITH FamilyTree AS
 (
